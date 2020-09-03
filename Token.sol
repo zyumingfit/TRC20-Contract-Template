@@ -1,22 +1,22 @@
 // 0.5.1-c8a2
-// Enable optimization
-pragma solidity ^0.5.0;
+//启用优化
+语用强度^ 0.5.0;
 
-import "./ERC20.sol";
-import "./ERC20Detailed.sol";
+导入“ ./ERC20.sol”；
+导入“ ./ERC20Detailed.sol”；
 
-/**
+/ **
  * @title SimpleToken
- * @dev Very simple ERC20 Token example, where all tokens are pre-assigned to the creator.
- * Note they can later distribute these tokens as they wish using `transfer` and other
- * `ERC20` functions.
- */
-contract Token is ERC20, ERC20Detailed {
+ * @dev非常简单的ERC20令牌示例，其中所有令牌都已预先分配给创建者。
+ *请注意，他们以后可以使用`transfer`和其他方式随意分配这些令牌
+ *`ERC20`功能。
+ * /
+合约代币为ERC20，ERC20
 
-    /**
-     * @dev Constructor that gives msg.sender all of existing tokens.
-     */
-    constructor () public ERC20Detailed("YourTokenName", "YTN", 18) {
-        _mint(msg.sender, 10000000000 * (10 ** uint256(decimals())));
+    / **
+     * @dev构造函数，可为msg.sender提供所有现有令牌。
+     * /
+    构造函数（）public ERC20Detailed（“ Magellan”，“ GEL”，18）{
+        _mint（msg.sender，1000000000 *（10 ** uint256（decimals（））））;
     }
 }
