@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("OREODEFI", "ODI", 15) {
-        _mint(msg.sender, 50000000 * (10 ** uint256(decimals())));
+    constructor () public ERC20Detailed("LIGHTNING FINANCE", "ODI", 18) {
+        _mint(msg.sender, 600000000 * (10 ** uint256(decimals())));
     }
 }
