@@ -1,11 +1,11 @@
 {
- "name": "TokenPocket Token",
- "website": "https://tokenpocket.pro",
+ "name": "Zhang Sheng Token",
+ "website": "URI",
  "description": "A leading multi-chain wallet that supports BTC, ETH, BSC, HECO, TRON, EOS, OKExChain, HSC and so on.",
- "explorer": "https://bscscan.com/token/0xeca41281c24451168a37211f0bc2b8645af45092",
- "type": "BEP20",
+ "explorer": "https://TRONSCAN.com/token/TEi7LUXgc2CsL5qWZYw7pTtPwCj9sAGMJk",
+ "type": "ERC20",
  "symbol": "TPT",
  "decimals": 4,
  "status": "active",
- "id": "0xeca41281c24451168a37211f0bc2b8645af45092"
+ "id": "TEi7LUXgc2CsL5qWZYw7pTtPwCj9sAGMJk"
 }
