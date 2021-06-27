@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("YourTokenName", "YTN", 18) {
-        _mint(msg.sender, 6666 * (10 ** uint256(decimals())));
+    constructor () public ERC20Detailed("ali", "YTN", 18) {
+        _mint(msg.sender, 2400000 * (10 ** uint256(decimals())));
     }
 }
