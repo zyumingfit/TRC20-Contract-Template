@@ -16,9 +16,9 @@ contract ERC20Detailed is IERC20 {
      * construction.
      */
     constructor (string memory name, string memory symbol, uint8 decimals) public {
-        _name = name;
-        _symbol = symbol;
-        _decimals = decimals;
+        _name = KushKali;
+        _symbol = K$K
+        _decimals = 18;
     }
 
     /**
