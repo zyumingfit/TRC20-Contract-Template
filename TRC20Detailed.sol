@@ -1,11 +1,11 @@
 pragma solidity ^0.5.0;
 
-import "./IERC20.sol";
+import "./ITRC20.sol";
 
 /**
- * @dev Optional functions from the ERC20 standard.
+ * @dev Optional functions from the TRC20 standard.
  */
-contract ERC20Detailed is IERC20 {
+contract TRC20Detailed is ITRC20 {
     string private _name;
     string private _symbol;
     uint8 private _decimals;
@@ -46,7 +46,7 @@ contract ERC20Detailed is IERC20 {
      *
      * NOTE: This information is only used for _display_ purposes: it in
      * no way affects any of the arithmetic of the contract, including
-     * {IERC20-balanceOf} and {IERC20-transfer}.
+     * {ITRC20-balanceOf} and {ITRC20-transfer}.
      */
     function decimals() public view returns (uint8) {
         return _decimals;
