@@ -3,7 +3,7 @@ pragma solidity ^0.5.0;
 import "./ITRC20.sol";
 
 /**
- * @dev Optional functions from the ERC20 standard.
+ * @dev Optional functions from the TRC20 standard.
  */
 contract TRC20Detailed is ITRC20 {
     string private _name;
